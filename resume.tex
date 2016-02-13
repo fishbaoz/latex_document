@@ -50,20 +50,37 @@
 
 \begin{rSection}{Experience}
 
+
+\begin{rSubsection}{Freelance}{Nov. 2015 - present }{Firmware Engineer}{Beijing}
+\item Produce more coreboot patches and work with unmerged patches in Coreboot community.
+\item Porting coreboot to product designed based on COM Express specification.
+\item Give coreboot training to Firmware engineers of an academy.
+\item Porting LUA interpreter to STM32 Broadcom WICED Software Development Kit.
+\end{rSubsection}
+
 \begin{rSubsection}{Advanced Micro Devices, Inc (AMD)}{Sept 2004 - Nov. 2015}{Firmware Engineer, SMTS}{Beijing}
 \item Lead development of Open Source firmware development
+\item Bringing up and Porting coreboot to more than 20 reference design cases including blade storage server (SBB), Set-Top-Box (STB), 6-screen digital signage, NAS, low-cost PC and public reference boards covered 7 generations of AMD APU, server CPU and chipsets.
 \item Contribution to Open Source projects, including Coreboot, Flashrom, SeaBIOS.
 Please refer \begin{verbatim} http://review.coreboot.org/#/q/owner:zheng.bao%2540amd.com\end{verbatim}
-\item Bringing up and Porting coreboot to more than 20 reference design cases including blade storage server (SBB), Set-Top-Box (STB), 6-screen digital signage, NAS, low-cost PC and public reference boards covered 7 generations of AMD APU, server CPU and chipsets.
+  \subitem Porting AMD-internal code to Coreboot.
+  \subitem Build AMD code as a binary module and integrate into final image.
+  \subitem IP scrub the AMD code to meet the open source requirement.
+  \subitem Setup the toolchain to build coreboot.
+  \subitem Set up the framework of ACPI.
+  \subitem Integrate AMD chipset and PSP firmware into Coreboot.
+  \subitem Integrate the UEFI(Duet) payload to coreboot. Porting the AMD UEFI code to Duet.
+  \subitem Porting flashrom to AMD chipset.
 \item Successively promoted as Senior Engineer, MTS, SMTS for extensive contribution to both firmware development and hardware validation
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{BLX IC Design Co., Ltd}{April 2003 - September 2004}{Software Engineer}{Beijing}
-\item Maintenance and development of software related with Godson-I (MIPS arch), including Firmware, OSes
-         (Linux, Windows CE)porting, hardware drivers, toolchains and applications.
-\item
+\item Maintenance and development of firmware related with Godson-I (MIPS arch),
+      focusing on keyboard driver, GUI in bootloader, Chinese font displaying. 
+\item Modify the MIPS toolchains to take the advantage to Godson-I.
+\item Port Linux to Godson-I board. Reduce the noise of AC97. Produce the root file system.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -100,14 +117,15 @@ Minor in Linguistics \smallskip \\
 \begin{rSection}{Technical Strengths}
 
 \item Numerous programming languages, including C, C++, Assembler (x86/x64,
-MIPS); Scripting languages: bash, awk, sed, PHP, python, perl; Data description languages: LaTeX;
+  MIPS, STM32); Scripting languages: bash, awk, sed, flex \& bison;
+  Data description languages: LaTeX;
 
 \item Development Tools: git, gerrit, Subversion, CVS,
-GNU compiler suite (GCC, Binutils, make, Coreutils), Visual Studio, AMD SimNow, Qemu
+GNU compiler suite (GCC, Binutils, gdb, gdbserver, make, Coreutils), Visual Studio, AMD SimNow, Qemu
 
 \item Bridging between hardware and software; Extensive chipset and bring-up
-experience, DDR I/II/III ram initialization, PCI, PCI-X, PCIe, SuperIO, Cardbus, ACPI, USB,
-SMI, EC
+experience, DDR I/II/III ram initialization, PCI, PCI-X, PCIe, SuperIO, Cardbus, USB,
+SMI, EC; Specification: UEFI, ACPI.
 
 \item Editors: Vim, Emacs
 
